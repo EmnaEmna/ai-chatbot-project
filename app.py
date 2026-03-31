@@ -2,7 +2,8 @@ from transformers import pipeline
 import streamlit as st
 
 # Load model
-chatbot = pipeline("text-generation", model="gpt2")
+#chatbot = pipeline("text-generation", model="gpt2")
+chatbot = pipeline("text-generation", model="distilgpt2")
 
 st.title("AI Chatbot 🤖")
 
