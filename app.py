@@ -23,7 +23,9 @@ if user_input:
     top_p=0.9,
     repetition_penalty=1.2
 )
-    st.write(response[0]['generated_text'])
+    st.write(response[0]['generated_text'].replace(user_input, ""))
+
+    #st.write(response[0]['generated_text'])
 
 
 # Load model
