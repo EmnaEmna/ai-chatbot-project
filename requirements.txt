@@ -1,5 +1,8 @@
 streamlit
 transformers
 torch
+torchvision
+accelerate
+sentencepiece
 accelerate
 sentencepiece
